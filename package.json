@@ -1,0 +1,22 @@
+{
+  "name": "trafficlight",
+  "version": "0.1.0",
+  "description": "Display Jenkins build status with a USB-controlled traffic light",
+  "main": "bin/trafficlight-update.js",
+  "author": {
+    "name": "Ben Godfrey",
+    "email": "bpgodfrey@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "serialport": "~1.4.0",
+    "jenkins": "~0.2.1",
+    "lodash": "~2.4.1",
+    "q": "~1.0.1",
+    "jasmine-node": "~2.0.0-beta4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/jasmine-node/bin/jasmine-node spec"
+  }
+}
